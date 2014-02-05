@@ -71,7 +71,7 @@ public class HuffmanCoding{
          String input;
 
          System.out.println("----------HUFFMAN CODING----------");
-         System.out.println("Pleaser enter the file name to be read...");
+         System.out.println("Please enter the file name to be read...");
          
          //Reads in input
          Scanner scan = new Scanner(System.in);
@@ -118,7 +118,7 @@ public class HuffmanCoding{
          //new input stream
          inStream = new FileInputStream(file);
          reader = new InputStreamReader(inStream);
-         File f = new File("HuffmanOutut.txt");//Begin writing to file
+         File f = new File("HuffmanOutput.txt");//Begin writing to file
          FileWriter fWrite = new FileWriter(f);
          BufferedWriter bWrite = new BufferedWriter(fWrite);
          
